@@ -16,4 +16,6 @@ JavaScript
 
 Acesse o Projeto
 Veja o projeto ao vivo:
-Link do projeto
+https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/992/440/original/FinalProjectBasics.html?1703022479
+
+
