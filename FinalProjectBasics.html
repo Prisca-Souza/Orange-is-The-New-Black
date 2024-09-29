@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Is the New Black</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin: 0 auto;
+
+        }
+        strong {
+            color: #FD803D;
+        
+            
+        }
+        p {
+            line-height: 2.4;
+            margin: 25px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 90%;
+            border-radius: 10px;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            font-size: 30px;
+            padding: 20px;
+            border: 10px;
+            border-radius: 100px;
+            background: #F45905;
+            color:white;
+            transition: all 200ms ease-in-out;
+            cursor: pointer;
+        }
+        button:hover {
+            background: white;
+            color: #F96D00;
+            opacity: 0.9;
+        }
+        a {
+            color: #F45905;
+            transition: 100ms ease-in-out;
+            font-size: 15px;
+            text-decoration: none;
+            margin: 30px;
+        }
+        a:hover {
+            color: #EF783A;
+            text-decoration: underline;
+            text-align: center;
+    }
+    .coder {
+        font-size: 11px;
+        text-align: center;
+        color: black;
+        
+    }
+    .background {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #E6E6E6;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+    <h1>Orange Is the New <strong>Black</strong> </h1>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/824/original/p13812572_b_h10_aa.jpg?1703020777"/>
+    <p>
+    Orange Is the New Black (sometimes abbreviated to OITNB) is an American comedy-drama streaming television series created by Jenji Kohan for Netflix. The series is based on Piper Kerman's memoir Orange Is the New Black: My Year in a Women's Prison (2010), about her experiences at FCI Danbury, a minimum security federal prison. Produced by Tilted Productions in association with Lionsgate Television, Orange Is the New Black premiered on Netflix on July 11, 2013. Its seventh and final season was released on July 26, 2019.
+    </p>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/823/original/3433536800-orange-new-black.jpg?1703020155"/>
+    <p> Piper, along with the other inmates, attempts to grapple with prison's numerous, inherent struggles. Episodes often feature flashbacks of significant events from various inmates' and prison guards' pasts. These flashbacks typically depict how an inmate came to be in prison or develop a character's backstory. The prison is initially operated by the "Federal Department of Corrections" (a fictional version of the Federal Bureau of Prisons) and was in a later season acquired by the Management & Correction Corporation (MCC), a private prison company.</p>
+    <a href="https://en.wikipedia.org/wiki/Orange_Is_the_New_Black"target="_blank">
+        Read more on Wikipedia
+    </a>
+
+    <button>Watch Now</button>
+    <p class="coder">
+        <a href="https://www.instagram.com/prisca_souza/" target="_blank" class="coder">
+Coded by Prisca De Souza
+</a>
+    </p>
+    </div>
+
+    <script> 
+    function watchNow() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old are you?");
+        if (age < 16) {
+            alert("Sorry, " + name + ". You can't watch ☹");
+        } else {
+            alert("You can watch it now on Netflix, " + name + "😃" );
+
+        
+    }
+}
+    
+        let watchButton=document.querySelector("button");
+        watchButton.addEventListener("click", watchNow);
+    </script>
+
+    
+</body>
+</html>
